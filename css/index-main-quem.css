@@ -1,0 +1,121 @@
+.main-quem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 2em;
+    width: 75%;
+    margin: auto;
+    background: black;
+}
+
+.main-quem-text{
+    width: 80%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.main-quem-text-title{
+    font-size: 3em;
+    color: white;
+}
+.main-quem-text-body{
+    font-size: 2em;
+    margin-top: 1em;
+    text-align: start;
+}
+
+.main-quem-slider{
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides{
+    display: flex;
+    width: 400%;
+    height: 100%;
+
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.slide img{
+    width: 600px;
+    height: 400px;
+}
+
+.manual-nav{
+    position: absolute;
+    width: 600px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: white;
+}
+
+#radio-btn1:checked~ .primeiro {
+    margin-left: 0;
+}
+
+#radio-btn2:checked~ .primeiro {
+    margin-left: -25%;
+}
+
+#radio-btn3:checked~ .primeiro {
+    margin-left: -50%;
+}
+
+.auto-nav section{
+    border: 3px solid blue;
+    border-radius: 50%;
+    padding:5px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.auto-nav{
+    position: absolute;
+    width: 600px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.auto-nav section:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio-btn1:checked ~ .auto-nav .auto-nav-btn1 {
+    background-color: white;
+}
+#radio-btn2:checked ~ .auto-nav .auto-nav-btn2 {
+    background-color: white;
+}
+#radio-btn3:checked ~ .auto-nav .auto-nav-btn3 {
+    background-color: white;
+}

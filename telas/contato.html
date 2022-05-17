@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lobo em Inglês</title>
+
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/contato-main-form.css">
+
+        
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    </head>  
+    
+    <body>
+        <header>
+            <a  href="index.html" class="header-logo">
+                <img src="../assets/logo.jpg">
+                <h2 class="header-title">Lobo em Ingês</h2>
+            </a>
+            <nav class="header-nav">
+                <a class="header-nav-items" href="videos.html" >Vídeo aulas e material</a>
+                <a class="header-nav-items" href="exercicios.html">Exercícios Online</a>
+                <a class="header-nav-items" href="contato.html">Contato</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="contato-main">
+                <form action="https://formsubmit.co/loboemingles@gmail.com"
+                method="POST"
+                class="contato-main-form" 
+                id="contato-main-form">
+                    <h1 class="contato-main-form-titulo"> Fale comigo através do formulário ou do 
+                        email <a href="https://gmail.com" target="_blank" class="bold"> loboemingles@gmail.com</a>
+                    </h1>
+                    <!--INPUTS DO FORM DE CONTATO-->
+                    <input name="name"
+                    type="text" 
+                    required
+                    placeholder="coloque seu nome(name)"
+                    class="contato-main-form-input" 
+                    id="contato-main-form-input-nome"/>
+
+                    <input name="email"
+                    type="email"
+                    required
+                    placeholder="coloque o email que mais usa(favorite email)"
+                    class="contato-main-form-input"
+                    id="contato-main-form-input-email"/>
+
+                    <input name="subject"
+                    type="text" 
+                    required
+                    placeholder="assunto que quer discutir(subject)"
+                    class="contato-main-form-input"
+                    id="contato-main-form-input-assunto"/>
+
+                    <textarea name="message"
+                    required
+                    class="contato-main-form-text" 
+                    id="contato-main-form-text" > 
+                    </textarea>
+
+                    <input
+                    type="submit" 
+                    value="Enviar mensagem (send message)"
+                    class="contato-form-submit-btn" 
+                    id="contato-form-submit-btn"/>
+
+                    <input name="_captcha"
+                    type="hidden"
+                    value="false"/>
+
+                    <input name="_next"
+                    type="hidden"
+                    value="http://127.0.0.1:5500/loboEmIngles/telas/obrigado.html"/>
+                    <!-- FIM INPUTS DO FORM DE CONTATO-->
+                </form>
+            </section>
+        </main>
+
+
+    </body>
+    
+</html>

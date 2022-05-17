@@ -1,0 +1,16 @@
+.background-obrigado-msg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto 10px auto;
+    padding: 2em 2em;
+    width: 75%;
+    background: black;
+}
+
+.obrigado-msg{
+    align-self: center;
+    color: white;
+    font-size: 3rem;
+    padding-top: 30px;
+}

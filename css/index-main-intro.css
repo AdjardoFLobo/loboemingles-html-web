@@ -1,0 +1,47 @@
+.main-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto 0px auto;
+    width: 75%;
+    background-color: black;
+    padding: 2em 2em;
+}
+
+.main-intro-text{
+    width: 80%;
+    color: white;
+}
+
+.main-intro-text-title{
+    font-size: 3em;
+    color: white;
+    padding-top: 20px;
+}
+.main-intro-text-body{
+    font-size: 2em;
+    margin-top: 1em;
+    text-align: start;
+}
+
+.bold{
+    text-decoration: none;
+    color: yellow;
+}
+
+.bold:hover{
+    color: blue;
+}
+
+.main-intro-images{
+    width: 70%;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.main-intro-images-flags{
+    margin: 1em;
+    border-radius: 8%;
+}
